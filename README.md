@@ -12,4 +12,5 @@ In this project, you will make use of Python to explore data related to bike sha
 Chicago.csv, New York City.csv, Washington.csv
 
 ### Credits
+BURAK POLATER
 https://github.com/bpolater
