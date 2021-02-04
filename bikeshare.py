@@ -102,16 +102,40 @@ def time_stats(df):
 
     # TO DO: display the most common month
     common_month = df['month'].mode()[0]
+<<<<<<< HEAD
     print('\nMost common month of trevelling is: {}'.format(MONTH_DATA[common_month].title()))
 
+||||||| 52bedd6
+    print('\nMost common month of trevelling is: '+ MONTH_DATA[common_month].title())
+     
+=======
+    print('\nMost common month of trevelling is: '+ MONTH_DATA[common_month].title())
+
+>>>>>>> 9e58f51040f8efd3547244be417cb46b185c613d
     # TO DO: display the most common day of week
     common_day_of_week = df['day_of_week'].mode()[0]
+<<<<<<< HEAD
     print('\nMost common day of the week of travelling is: {}'.format(common_day_of_week))
 
+||||||| 52bedd6
+    print('\nMost common day of the week of travelling is: ' + common_day_of_week)
+      
+=======
+    print('\nMost common day of the week of travelling is: ' + common_day_of_week)
+
+>>>>>>> 9e58f51040f8efd3547244be417cb46b185c613d
     # TO DO: display the most common start hour
     common_start_hour = df['hour'].mode()[0]
+<<<<<<< HEAD
     print('\nMost common start hour is: {} \n'.format(common_start_hour))
 
+||||||| 52bedd6
+    print('\nMost common start hour is: '+ str(common_start_hour) + '\n')
+  
+=======
+    print('\nMost common start hour is: '+ str(common_start_hour) + '\n')
+
+>>>>>>> 9e58f51040f8efd3547244be417cb46b185c613d
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -144,7 +168,7 @@ def trip_duration_stats(df):
 
     # TO DO: display total travel time
     total_travel = int(df['Trip Duration'].sum())
-    print('\nTotal time travel is: ' + str(total_travel))
+    print('\nTotal time travel is: {}'.format(total_travel))
 
     # TO DO: display mean travel time
     mean_travel = int(df['Trip Duration'].mean())
