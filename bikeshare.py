@@ -104,6 +104,7 @@ def time_stats(df):
     common_month = df['month'].mode()[0]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     print('\nMost common month of trevelling is: {}'.format(MONTH_DATA[common_month].title()))
 
 
@@ -338,15 +339,56 @@ def time_stats(df):
     # TO DO: display the most common month
     common_month = df['month'].mode()[0]
     print('\nMost common month of trevelling is: {}'.format(MONTH_DATA[common_month].title()))
+||||||| 9e58f51
+    print('\nMost common month of trevelling is: '+ MONTH_DATA[common_month].title())
+=======
+<<<<<<< HEAD
+    print('\nMost common month of trevelling is: {}'.format(MONTH_DATA[common_month].title()))
 
+||||||| 52bedd6
+    print('\nMost common month of trevelling is: '+ MONTH_DATA[common_month].title())
+     
+=======
+    print('\nMost common month of trevelling is: '+ MONTH_DATA[common_month].title())
+>>>>>>> 14bb8d4ffc7d4686594d989ae069a7f50f0140d7
+
+>>>>>>> 9e58f51040f8efd3547244be417cb46b185c613d
     # TO DO: display the most common day of week
     common_day_of_week = df['day_of_week'].mode()[0]
+<<<<<<< HEAD
+    print('\nMost common day of the week of travelling is: {}'.format(common_day_of_week))
+||||||| 9e58f51
+    print('\nMost common day of the week of travelling is: ' + common_day_of_week)
+=======
+<<<<<<< HEAD
     print('\nMost common day of the week of travelling is: {}'.format(common_day_of_week))
 
+||||||| 52bedd6
+    print('\nMost common day of the week of travelling is: ' + common_day_of_week)
+      
+=======
+    print('\nMost common day of the week of travelling is: ' + common_day_of_week)
+>>>>>>> 14bb8d4ffc7d4686594d989ae069a7f50f0140d7
+
+>>>>>>> 9e58f51040f8efd3547244be417cb46b185c613d
     # TO DO: display the most common start hour
     common_start_hour = df['hour'].mode()[0]
+<<<<<<< HEAD
+    print('\nMost common start hour is: {} \n'.format(common_start_hour))
+||||||| 9e58f51
+    print('\nMost common start hour is: '+ str(common_start_hour) + '\n')
+=======
+<<<<<<< HEAD
     print('\nMost common start hour is: {} \n'.format(common_start_hour))
 
+||||||| 52bedd6
+    print('\nMost common start hour is: '+ str(common_start_hour) + '\n')
+  
+=======
+    print('\nMost common start hour is: '+ str(common_start_hour) + '\n')
+>>>>>>> 14bb8d4ffc7d4686594d989ae069a7f50f0140d7
+
+>>>>>>> 9e58f51040f8efd3547244be417cb46b185c613d
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
